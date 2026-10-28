@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main()
+
+
 {
     int choice, quantity;
      int total = 0;
@@ -24,6 +26,8 @@ int main()
            printf("Enter your choice: ");
            scanf("%d", &choice);
 
+
+        
         if (choice == 8)
         {
             break;
@@ -38,6 +42,7 @@ int main()
         printf("Enter quantity: ");
         scanf("%d", &quantity);
 
+        
         if (quantity <= 0)
         {
             printf("Invalid quantity! Please try again.\n");
@@ -65,6 +70,8 @@ int main()
         printf("------------------------------------\n");
     }
 
+
+    
     printf("\n");
     printf("************************************\n");
     printf("          EMERTXE CAFE BILL\n");
