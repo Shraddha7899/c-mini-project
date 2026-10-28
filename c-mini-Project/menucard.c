@@ -1,14 +1,11 @@
-
 #include <stdio.h>
-
 int main()
 {
     int choice, quantity;
-    int total = 0;
-
-    while (1)
+     int total = 0;
+ while (1)
     {
-        printf("\n");
+         printf("\n");
         printf("====================================\n");
         printf("       WELCOME TO EMERTXE CAFE\n");
         printf("====================================\n");
@@ -22,10 +19,10 @@ int main()
         printf("  6. Chocolate Cake- Rs. 80\n");
         printf("  7. Sandwich      - Rs. 80\n");
         printf("  8. Exit\n");
-        printf("------------------------------------\n");
+    printf("------------------------------------\n");
 
-        printf("Enter your choice: ");
-        scanf("%d", &choice);
+           printf("Enter your choice: ");
+           scanf("%d", &choice);
 
         if (choice == 8)
         {
@@ -77,6 +74,5 @@ int main()
     printf("  Thank you for visiting!\n");
     printf("  Have a sweet day!\n");
     printf("************************************\n");
-
     return 0;
 }
